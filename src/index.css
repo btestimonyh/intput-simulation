@@ -1,0 +1,18 @@
+/* Style the input box */
+input[type="text"] {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+}
+
+/* Hide cursor */
+input[type="text"].hide-cursor {
+    caret-color: transparent; /* Hide the text cursor */
+}
+
+/* Optional: Add some visual feedback */
+input[type="text"]:focus {
+    outline: none; /* Remove default focus outline */
+    border: 2px solid #007BFF; /* Add a custom border on focus */
+}
